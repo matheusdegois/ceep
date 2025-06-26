@@ -114,7 +114,8 @@ if ($id) {
 
                     <!-- Imagem -->
                     <div class="col-md-5 text-center">
-                        <img src="img/Desenvolvimento.jpg" alt="Foto do CEEP" class="img-fluid rounded shadow-sm">
+                        <img src="projetoFinalAdmin/uploads/<?php echo $dados['imagem']; ?>"
+                            alt="imagem de: <?php echo $dados['nome'] ?>" class="img-fluid rounded shadow-sm">
                     </div>
                 </div>
             </div>
